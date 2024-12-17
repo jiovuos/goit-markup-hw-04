@@ -117,6 +117,12 @@ img {
 .current {
   position: relative;
   color: #404bbf;
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .current::after {
@@ -130,7 +136,7 @@ img {
   border-radius: 2px;
 }
 
-.nav-link {
+.nav-link:not(.current) {
   display: block;
   padding: 24px 0;
   font-weight: 500;
